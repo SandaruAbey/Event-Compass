@@ -1,0 +1,49 @@
+.container{
+    
+    text-align: center;
+}
+.carttable {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: poppins;
+    text-align: center;
+}
+
+.carttable th, .carttable td {
+    border: 0px solid #ccc;
+    padding: 5px;
+    text-align: left;
+    text-align: center;
+}
+
+.carttable th {
+    background-color: #2a2a2a;
+    color: white;
+}
+
+.carttable tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.carttable tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+.Removebtn{
+    text-decoration: none;
+    color: #c40303;
+}
+.Removebtn:hover{
+    color: coral;
+}
+.plubtn{
+   
+    color: blue;
+    font-size: 20px;
+}
+.plubtn:hover{
+color: #2a2a2a;
+}
+.quantityspace{
+    border: none;
+    padding: 5px;
+}

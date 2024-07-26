@@ -1,0 +1,135 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Apply basic styles to the body for spacing and font */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/1/18/Rock_concert_in_black_and_white_%28Unsplash%29.jpg");
+    background-size: cover; 
+    
+}
+
+/* Style the header */
+
+header {
+    background-color: #1d1d1d; /* Background color for the header */
+    color: #fff; /* Text color for the header */
+    padding: 20px; /* Add padding to the header */
+    display: flex; /* Make the header contents align horizontally */
+    justify-content:center; /* Spread contents to the edges */
+    align-items: center; /* Center items vertically */
+    height: 90px;
+    padding-left: 30px;
+    position: absolute;
+        top: 0;
+        width: 100%;
+    position:fixed;
+    z-index: 1;
+    font-family: 'Gabarito', cursive;
+    
+}
+
+/* Style the logo image */
+.logo {
+    width: 200px;
+    height: 250px; /* Set the height of the logo image */
+    position: relative;
+    right: 420px;
+    top : 15px
+}
+
+/* Style the navigation menu */
+ul {
+    list-style: none; /* Remove list bullet points */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+    position: relative;
+    left: 400px;
+}
+
+li {
+    display: inline; /* Display list items horizontally */
+    margin-right: 20px; /* Add some space between list items */
+}
+
+a {
+    text-decoration: none; /* Remove underline from links */
+    color: #fff; /* Text color for links */
+}
+
+a:hover {
+    color: rgb(255, 234, 0);
+}
+.Login{
+    padding: 10px;
+    background-color: #fff;
+    width: 90px;
+    border-radius: 7px;
+    border:0px; 
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+.loginn {
+    position: absolute;
+    color: aliceblue;
+    background-color: rgba(80, 80, 80, 0.8);
+    border-radius: 25px;
+    left: 50%; /* Change this to center the div horizontally */
+    top: 57%; /* Change this to center the div vertically */
+    transform: translate(-50%, -50%); /* Centering trick */
+    text-align: center; /* To center the text horizontally */
+    padding: 70px;
+    animation: fade-in 0.5s ease-in;
+    
+}
+.loginform {
+    position:relative;
+    justify-content: flex-end;
+}
+
+
+
+input {
+    padding: 10px;
+    margin-left: 20px;
+    border-radius: 10px;
+    border: none;
+    font-family: poppins;
+    position: relative;
+    align-items: end;
+    
+}
+#loginformbtn{
+padding: 10px;
+width: 90px;
+font-family: poppins;
+
+}
+#loginformbtn:hover{
+    background-color: rgb(255, 140, 57);
+}
+#signupspan{
+    color:rgb(255, 83, 9)
+}
+#signupspan:hover{
+    color: #fff;
+}
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+lable{
+    align-items: self-start;
+}
+
+
+  

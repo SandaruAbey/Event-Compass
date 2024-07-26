@@ -1,0 +1,14 @@
+body {
+  background-image: url("https://kfg6bckb.media.zestyio.com/yalantis-interactive-404.gif");
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed; /* Optional: This keeps the background fixed while scrolling */
+}
+#gohomeerror{
+	padding: 10px;
+	position: absolute;
+	top: 60%;
+	right: 50%;
+	font-family: poppins;
+	
+}

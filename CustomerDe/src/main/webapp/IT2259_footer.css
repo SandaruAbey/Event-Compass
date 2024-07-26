@@ -1,0 +1,37 @@
+.fooretmain{
+    position: absolute;
+    background-color: #2d2d2d;
+    width: 1380px;
+    top: 1850px;
+    height: 200px;
+    justify-content: space-between;
+    display: flex;
+}
+.fooologo{
+    position: relative;
+    height: 300px;
+    width: 250px;
+    bottom: 30px
+}
+.foonavi{
+    position: relative;
+    top: 15%;
+    right: 35%;
+    text-align: center;
+    
+    
+}
+#foo{
+    display: block;
+    margin-top: 10px;
+    font-family: poppins;
+}
+.foosocial{
+    position: relative;
+    top: 15%;
+    right: 10%;
+}
+.fa-brands{
+    margin-top: 25px;
+    bottom: 15%;
+}

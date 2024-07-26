@@ -1,0 +1,18 @@
+1697388324322	Delete element
+1697388337298	Delete element
+1697388349478	Delete element
+1697554994456	Rename type 'Customer'
+1697555036550	Rename type 'CustomerDBUtil'
+1697555080893	Rename type 'DeleteCustomerServlet'
+1697555091916	Rename type 'DBConnect'
+1697555107404	Rename type 'LoginServlet'
+1697555130223	Rename type 'UpdateCustomerServlet'
+1697555138033	Rename type 'CustomerInsert'
+1697555343142	Rename resource 'Login.jsp'
+1697555347372	Rename resource 'DeleteCustomer.jsp'
+1697555351476	Rename resource 'CustomerInsert.jsp'
+1697555363933	Rename resource 'Success.jsp'
+1697555367962	Rename resource 'Unsuccess.jsp'
+1697555375094	Rename resource 'UpdateCustomer.jsp'
+1697555379044	Rename resource 'useraccount.jsp'
+1697555601636	Rename type 'IT2259_CustomerInsert'

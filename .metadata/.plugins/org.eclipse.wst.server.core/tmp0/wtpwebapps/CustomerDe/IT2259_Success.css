@@ -1,0 +1,32 @@
+
+body{
+    background-color: #1d1d1d;
+}
+.Container{
+background-color: aliceblue;
+width: 300px;
+height: 400px;
+position: absolute;
+top: 20%;
+left: 40%;
+background-image: url("https://cdn.dribbble.com/users/315048/screenshots/3710002/check.gif");
+background-size: cover; 
+    background-position: center;
+border-radius: 20px;
+text-align: center;
+color: aliceblue;
+font-family: poppins;
+font-size: 15px;
+
+
+}
+.logbtn{
+    padding: 15px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    text-decoration: none;
+    position: relative;
+    top: 50%;
+    font-size: 20px;
+    
+}

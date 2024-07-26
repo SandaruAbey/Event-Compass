@@ -1,0 +1,250 @@
+/* Reset default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Apply basic styles to the body for spacing and font */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header */
+
+header {
+    background-color: #1d1d1d; /* Background color for the header */
+    color: #fff; /* Text color for the header */
+    padding: 20px; /* Add padding to the header */
+    display: flex; /* Make the header contents align horizontally */
+    justify-content:center; /* Spread contents to the edges */
+    align-items: center; /* Center items vertically */
+    height: 90px;
+    padding-left: 30px;
+    position: absolute;
+        top: 0;
+        width: 100%;
+    position:fixed;
+    z-index: 1;
+    font-family: 'Gabarito', cursive;
+    
+}
+
+/* Style the logo image */
+.logo {
+    width: 200px;
+    height: 250px; /* Set the height of the logo image */
+    position: relative;
+    right: 420px;
+    top : 15px
+}
+
+/* Style the navigation menu */
+ul {
+    list-style: none; /* Remove list bullet points */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+    position: relative;
+    left: 400px;
+}
+
+li {
+    display: inline; /* Display list items horizontally */
+    margin-right: 30px; /* Add some space between list items */
+}
+
+a {
+    text-decoration: none; /* Remove underline from links */
+    color: #fff; /* Text color for links */
+}
+
+a:hover {
+    color: rgb(255, 128, 0);
+}
+.Login{
+    padding: 10px;
+    background-color: #fff;
+    width: 90px;
+    border-radius: 7px;
+    border:0px; 
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+#loginbtn{
+    color: #1d1d1d;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-size: 18px;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+.Login:hover{
+    background-color:rgb(255, 128, 0);
+}
+#loginbtn:hover{
+    color: #ffffff;
+}
+.upcoming{
+    width: 500px;
+    height: 600px;
+    background-color: rgb(227, 227, 227);
+    position: relative;
+    top: 662px;
+    width: 100%; /* Use a percentage of the window width */
+    max-width:1600px; /* Set a maximum width */
+    height: 1200px; /* Let the height adjust to content */
+    padding: 50px;
+    justify-content: center;
+}
+.upcomingName{
+    font-family:serif;
+    text-align: center;
+    font-size: 30px;
+}
+.treelayEvent{
+    background-color: wheat;
+}
+.event {
+    position: relative;
+    width: 330px;
+    height: 330px; /* You were missing "px" here */
+    background-color: #1d1d1d;
+    margin-right: 40px;
+    box-shadow:  0 30px 50px #505050;
+}
+#event1{
+    background-image: url('https://i.pinimg.com/564x/c0/c2/c1/c0c2c1662e91492ae734f1637840ab11.jpg');
+    background-size: cover; /* Resize image to cover the div */
+    background-position: center; /* Center the image within the div */
+}
+
+#event2{
+    background-image: url('https://i.pinimg.com/564x/22/88/61/22886167f2c8e0fcbed764b4a5421b6d.jpg');
+    background-size: cover; /* Resize image to cover the div */
+    background-position: center; /* Center the image within the div */
+}
+
+#event3{
+    background-image: url('https://i.pinimg.com/564x/e2/57/21/e25721b48e82735cf5608b2e957b43d7.jpg');
+    background-size: cover; /* Resize image to cover the div */
+    background-position: center; /* Center the image within the div */
+}
+#event4{
+    background-image: url('https://i.pinimg.com/564x/f0/07/99/f007999e0015bfd48e9ec824169d22cb.jpg');
+    background-size: cover; /* Resize image to cover the div */
+    background-position: center; /* Center the image within the div */
+}
+#event5{
+    background-image: url('https://i.pinimg.com/564x/80/a7/93/80a793d58fd6eef5a144d608dc810ce8.jpg');
+    background-size: cover; /* Resize image to cover the div */
+    background-position: center; /* Center the image within the div */
+}
+
+#event6{
+    background-image: url('https://i.pinimg.com/564x/8e/72/40/8e7240bd0be8c6d02f2f48337b1d7d03.jpg');
+    background-size: cover; /* Resize image to cover the div */
+    background-position: center; /* Center the image within the div */
+}
+
+#event7{
+    background-image: url('https://i.pinimg.com/564x/7a/90/dc/7a90dc9667ec9aa44c4f9ae9c4bf40ae.jpg');
+    background-size: cover; /* Resize image to cover the div */
+    background-position: center; /* Center the image within the div */
+}
+#event8{
+    background-image: url('https://i.pinimg.com/564x/a4/26/f0/a426f033c7bf1c170118d9ef285a43d2.jpg');
+    background-size: cover; /* Resize image to cover the div */
+    background-position: center; /* Center the image within the div */
+}
+
+.eventimg1{
+    width: 330px;
+    height: 330px;
+}
+.Eventss{
+    position: relative;
+    top: 40px;
+    display: flex;
+    justify-content:center;
+   
+
+}
+#detailsupEvent{
+    font-family: 'Cabin', sans-serif;
+    text-align: center;
+    font-size: 50px;
+    position: relative;
+    top: 40%;
+    opacity: 0%;
+    transition: color 0.3s ease, background-color 0.3s ease;
+
+}
+#detailsupEvent:hover{
+    opacity: 100%;
+    background-color: rgba(29, 29, 29, 0.8); /*background opacity*/
+    color: #fff;
+   
+
+}
+#Eventss2{
+    margin-top: 50px;
+}
+
+.event{
+    background-color: #a7d9ff;
+    width: 300px;
+    height: 500px;
+    position:relative;
+    top:20%;
+    left:0%;
+    border-radius: 10px;
+    margin-left: 2vh;
+    background-size: cover; 
+    background-position: center;
+    
+}
+.eventrow{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 20px;
+    
+}
+.viewbtn{
+    padding: 10px;
+    border: none;
+    position: relative;
+    top:15%;
+    left:0%;
+    border-radius: 10px;
+    background-color: brown;
+    color: #fff;
+    font-family: 'poppins';
+}
+.viewbtn:hover{
+    background-color: rgb(234, 62, 62);
+}
+.eventContainer{
+    height: 100vh; /* Adjust the height as needed */
+    position: absolute;
+    top:70px;
+margin: 30px;
+z-index: -1;
+}
+.detailarea{
+    padding: 20px;
+    background-color: #1d1d1d;
+    height: 150px;
+    position: relative;
+    top: 70%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+    color: #fff;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    
+}
+.date{
+    color: #c2c2c2;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
